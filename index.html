@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Haven Café | Premium & Artisanal Coffee Experience</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Indulge in a premium, warm coffee experience at Brew Haven Café. Handcrafted espresso, organic beans, cozy atmosphere, and freshly baked pastries. Visit us today!">
+    <meta name="keywords" content="coffee shop, premium coffee, espresso, cold brew, cozy cafe, pastry, Brew Haven Cafe, artisanal coffee">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#" class="logo" id="logo-nav" aria-label="Brew Haven Cafe Home">
+                <svg class="logo-icon" viewBox="0 0 100 100" width="45" height="45">
+                    <!-- Coffee Cup Outline -->
+                    <path d="M25,35 C25,25 75,25 75,35 C75,55 70,68 57,75 C45,80 35,78 25,68 Z" fill="none" stroke="#C68E5A" stroke-width="4" stroke-linecap="round"/>
+                    <!-- Handle -->
+                    <path d="M74,38 C83,38 88,44 88,50 C88,56 82,61 73,61" fill="none" stroke="#C68E5A" stroke-width="4" stroke-linecap="round"/>
+                    <!-- Saucer -->
+                    <path d="M15,82 L85,82" fill="none" stroke="#6F4E37" stroke-width="5" stroke-linecap="round"/>
+                    <!-- Coffee Bean Details inside Cup -->
+                    <path d="M43,45 C38,48 38,55 43,60 C48,65 55,65 60,60 C65,55 65,48 60,45 C55,40 48,40 43,45 Z" fill="#4E342E"/>
+                    <!-- Bean Center Split Line -->
+                    <path d="M41,43 Q50,52 59,61" fill="none" stroke="#F5E6D3" stroke-width="1.5" stroke-linecap="round"/>
+                    <!-- Steaming lines -->
+                    <path d="M38,20 Q42,12 38,5" fill="none" stroke="#C68E5A" stroke-width="2.5" stroke-linecap="round"/>
+                    <path d="M50,22 Q54,14 50,7" fill="none" stroke="#C68E5A" stroke-width="2.5" stroke-linecap="round"/>
+                    <path d="M62,20 Q66,12 62,5" fill="none" stroke="#C68E5A" stroke-width="2.5" stroke-linecap="round"/>
+                </svg>
+                <div class="logo-text">
+                    <span class="logo-title">Brew Haven</span>
+                    <span class="logo-subtitle">C A F É</span>
+                </div>
+            </a>
+
+            <!-- Desktop Menu -->
+            <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#menu" class="nav-link">Menu</a>
+                <a href="#best-sellers" class="nav-link">Bestsellers</a>
+                <a href="#why-us" class="nav-link">Why Us</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#reviews" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-nav">Book Table</a>
+                <!-- Mobile Toggle Button -->
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Menu" aria-expanded="false">
+                    <svg viewBox="0 0 100 80" width="30" height="24" fill="#FFF8F0">
+                        <rect class="bar bar-1" width="100" height="10" rx="5"></rect>
+                        <rect class="bar bar-2" y="30" width="100" height="10" rx="5"></rect>
+                        <rect class="bar bar-3" y="60" width="100" height="10" rx="5"></rect>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg-overlay"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="tagline">
+                        <svg class="tagline-icon" width="16" height="16" viewBox="0 0 24 24" fill="#C68E5A">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                        </svg>
+                        <span>The Ultimate Coffee Experience</span>
+                    </div>
+                    <h1 class="hero-title">Crafting Perfect Moments, One Sip at a Time</h1>
+                    <p class="hero-description">Welcome to Brew Haven Café, where rich flavors meet cozy atmospheres. Indulge in our carefully selected single-origin beans, roasted to perfection and brewed by passionate baristas.</p>
+                    <div class="hero-ctas">
+                        <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                        <a href="#about" class="btn btn-secondary">Our Story</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">100%</span>
+                            <span class="stat-label">Organic Beans</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">20+</span>
+                            <span class="stat-label">Specialty Blends</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">4.9★</span>
+                            <span class="stat-label">Customer Rating</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-backdrop"></div>
+                    <div class="hero-image-container">
+                        <img src="assets/hero_coffee.png" alt="Premium coffee cup with elegant heart latte art, coffee beans, cozy café background" class="hero-img">
+                        <!-- Floating Badges -->
+                        <div class="floating-badge badge-top">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="#C68E5A">
+                                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                            </svg>
+                            <div>
+                                <h4>Premium Quality</h4>
+                                <p>Certified Specialty</p>
+                            </div>
+                        </div>
+                        <div class="floating-badge badge-bottom">
+                            <svg class="badge-icon" viewBox="0 0 24 24" fill="#C68E5A" width="20" height="20">
+                                <path d="M12 2c1.1 0 2 .9 2 2v10c0 1.1-.9 2-2 2s-2-.9-2-2V4c0-1.1.9-2 2-2zm6 11.23V7c0-1.1-.9-2-2-2s-2 .9-2 2v6.23c-1.16-.4-2-.92-2-1.73V7c0-1.1-.9-2-2-2s-2 .9-2 2v4.5c0 3.04 2.46 5.5 5.5 5.5h2.5c2.48 0 4.5-2.02 4.5-4.5V13c0-1.1-.9-2-2-2z"/>
+                            </svg>
+                            <div>
+                                <h4>Freshly Roasted</h4>
+                                <p>Roasted Daily</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-wave">
+                <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                    <path d="M0,32L80,48C160,64,320,96,480,96C640,96,800,64,960,53.3C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z" fill="#FFF8F0"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="section-grid">
+                    <div class="about-image-wrapper">
+                        <img src="assets/cafe_interior.png" alt="Warm cozy premium interior of Brew Haven Cafe" class="about-img">
+                        <div class="experience-card">
+                            <span class="exp-years">12+</span>
+                            <span class="exp-text">Years of Coffee Artistry</span>
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <span class="section-subtitle">Our Journey</span>
+                        <h2 class="section-title">A Sanctuary for True Coffee Connoisseurs</h2>
+                        <p class="section-text">Founded in 2014, Brew Haven Café was born out of a simple passion: to source the finest single-origin coffee beans and create a cozy haven where communities could connect and find peace.</p>
+                        <p class="section-text text-secondary">Every bean we roast tells a story of the soil, elevation, and rain from faraway farms in Ethiopia, Colombia, and Sumatra. Our dedicated team of master baristas ensures that every extraction respects the bean's true potential, delivering a pure, unparalleled taste profile.</p>
+                        
+                        <div class="about-features">
+                            <div class="about-feat-item">
+                                <div class="feat-icon-box">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#C68E5A">
+                                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3>Ethical Sourcing</h3>
+                                    <p>We work directly with fair-trade certified farms to support sustainable agriculture.</p>
+                                </div>
+                            </div>
+                            <div class="about-feat-item">
+                                <div class="feat-icon-box">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#C68E5A">
+                                        <path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3zm0 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3>Cosy Sanctuary</h3>
+                                    <p>Our cafe is styled as a warm, quiet retreat equipped with high-speed WiFi and comfortable seating.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Menu Section -->
+        <section class="menu-section" id="menu">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Brew Haven Offerings</span>
+                    <h2 class="section-title">Discover Our Crafted Menu</h2>
+                    <p class="section-desc">From complex, bold double espressos to aromatic, sweet caramel cold brews, find your perfect cup crafted with premium ingredients.</p>
+                </div>
+
+                <!-- Interactive Menu Tabs -->
+                <div class="menu-tabs">
+                    <button class="menu-tab-btn active" data-category="all" id="tab-all">All Menu</button>
+                    <button class="menu-tab-btn" data-category="espresso" id="tab-espresso">Espresso Drinks</button>
+                    <button class="menu-tab-btn" data-category="cold" id="tab-cold">Cold & Iced</button>
+                    <button class="menu-tab-btn" data-category="sweet" id="tab-sweet">Pastries & Sweets</button>
+                </div>
+
+                <!-- Menu Grid -->
+                <div class="menu-grid" id="menu-grid">
+                    <!-- Item 1 -->
+                    <div class="menu-card" data-category="espresso">
+                        <div class="menu-card-badge">Signature</div>
+                        <div class="menu-card-content">
+                            <div class="menu-card-header">
+                                <h3 class="menu-item-title">Affogato al Caffè</h3>
+                                <span class="menu-item-price">$6.50</span>
+                            </div>
+                            <p class="menu-item-desc">A rich scoop of organic vanilla bean gelato drowned in a double shot of hot, full-bodied espresso.</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-item-tag">Sweet & Bold</span>
+                                <div class="rating">★★★★★ <span class="rating-val">(4.9)</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="menu-card" data-category="espresso">
+                        <div class="menu-card-content">
+                            <div class="menu-card-header">
+                                <h3 class="menu-item-title">Cortado Classic</h3>
+                                <span class="menu-item-price">$4.75</span>
+                            </div>
+                            <p class="menu-item-desc">Equal parts rich espresso and warm, velvety steamed whole milk to reduce acidity while maintaining strength.</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-item-tag">Rich Crema</span>
+                                <div class="rating">★★★★★ <span class="rating-val">(4.8)</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="menu-card" data-category="cold">
+                        <div class="menu-card-badge">Best Seller</div>
+                        <div class="menu-card-content">
+                            <div class="menu-card-header">
+                                <h3 class="menu-item-title">Salted Caramel Cold Brew</h3>
+                                <span class="menu-item-price">$5.90</span>
+                            </div>
+                            <p class="menu-item-desc">Our 18-hour cold brew infused with organic caramel syrup, topped with sweet cream and French sea salt cold foam.</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-item-tag">Iced Specialty</span>
+                                <div class="rating">★★★★★ <span class="rating-val">(5.0)</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="menu-card" data-category="cold">
+                        <div class="menu-card-content">
+                            <div class="menu-card-header">
+                                <h3 class="menu-item-title">Iced Rose Pistachio Latte</h3>
+                                <span class="menu-item-price">$6.25</span>
+                            </div>
+                            <p class="menu-item-desc">Double espresso, organic pistachio milk, and a delicate splash of natural rose water syrup over crushed ice.</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-item-tag">Floral Note</span>
+                                <div class="rating">★★★★★ <span class="rating-val">(4.7)</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="menu-card" data-category="sweet">
+                        <div class="menu-card-badge">Freshly Baked</div>
+                        <div class="menu-card-content">
+                            <div class="menu-card-header">
+                                <h3 class="menu-item-title">Almond Butter Croissant</h3>
+                                <span class="menu-item-price">$5.20</span>
+                            </div>
+                            <p class="menu-item-desc">Flaky, multi-layered butter croissant filled with dark rum frangipane, topped with toasted sliced almonds.</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-item-tag">Pastry</span>
+                                <div class="rating">★★★★★ <span class="rating-val">(4.9)</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 6 -->
+                    <div class="menu-card" data-category="sweet">
+                        <div class="menu-card-content">
+                            <div class="menu-card-header">
+                                <h3 class="menu-item-title">Decadent Chocolate Tart</h3>
+                                <span class="menu-item-price">$7.00</span>
+                            </div>
+                            <p class="menu-item-desc">Gluten-free almond crust filled with rich 70% dark Belgian chocolate ganache, garnished with sea salt flakes.</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-item-tag">Dessert</span>
+                                <div class="rating">★★★★★ <span class="rating-val">(4.8)</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Selling Drinks Section -->
+        <section class="best-sellers-section" id="best-sellers">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Popular Favorites</span>
+                    <h2 class="section-title text-light">Best Selling Drinks</h2>
+                    <p class="section-desc text-light-muted">The items our community loves and requests the most. Carefully prepared to deliver absolute satisfaction.</p>
+                </div>
+
+                <div class="best-sellers-grid">
+                    <!-- Drink 1 -->
+                    <div class="best-seller-card">
+                        <div class="bs-img-box">
+                            <div class="bs-circle-bg"></div>
+                            <!-- Icon/Illustration placeholder for coffee -->
+                            <svg class="bs-coffee-icon" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="#C68E5A" stroke-width="2" stroke-dasharray="5 3"/>
+                                <path d="M30,45 C30,30 70,30 70,45 C70,60 65,70 55,75 C45,80 35,75 30,65 Z" fill="#4E342E"/>
+                                <path d="M70,47 C77,47 82,51 82,56 C82,61 77,65 70,65" fill="none" stroke="#C68E5A" stroke-width="3"/>
+                                <path d="M40,32 Q50,45 60,32" fill="none" stroke="#FFF8F0" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="bs-info">
+                            <div class="rating-stars">★★★★★</div>
+                            <h3>Signature Cappuccino</h3>
+                            <p class="bs-description">Rich espresso shot combined with equal parts steamed milk and thick milk foam, finished with a dust of premium cocoa.</p>
+                            <div class="bs-price-row">
+                                <span class="bs-price">$5.25</span>
+                                <a href="#contact" class="btn btn-primary btn-sm">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Drink 2 -->
+                    <div class="best-seller-card featured-card">
+                        <div class="card-glow"></div>
+                        <div class="bs-img-box">
+                            <div class="bs-circle-bg"></div>
+                            <svg class="bs-coffee-icon" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="#FFF8F0" stroke-width="2" stroke-dasharray="5 3"/>
+                                <path d="M30,45 C30,30 70,30 70,45 C70,60 65,70 55,75 C45,80 35,75 30,65 Z" fill="#6F4E37"/>
+                                <path d="M70,47 C77,47 82,51 82,56 C82,61 77,65 70,65" fill="none" stroke="#FFF8F0" stroke-width="3"/>
+                                <path d="M38,55 Q50,65 62,55" fill="none" stroke="#C68E5A" stroke-width="3" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="bs-info">
+                            <div class="rating-stars">★★★★★</div>
+                            <h3>Velvet Caramel Macchiato</h3>
+                            <p class="bs-description">Freshly steamed milk, sweet vanilla syrup, marked with rich espresso and drizzled with a generous pattern of house-made caramel.</p>
+                            <div class="bs-price-row">
+                                <span class="bs-price">$5.95</span>
+                                <a href="#contact" class="btn btn-primary btn-sm">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Drink 3 -->
+                    <div class="best-seller-card">
+                        <div class="bs-img-box">
+                            <div class="bs-circle-bg"></div>
+                            <svg class="bs-coffee-icon" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="#C68E5A" stroke-width="2" stroke-dasharray="5 3"/>
+                                <path d="M30,45 C30,30 70,30 70,45 C70,60 65,70 55,75 C45,80 35,75 30,65 Z" fill="#2C1E15"/>
+                                <path d="M70,47 C77,47 82,51 82,56 C82,61 77,65 70,65" fill="none" stroke="#C68E5A" stroke-width="3"/>
+                                <line x1="33" y1="40" x2="67" y2="40" stroke="#FFF8F0" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <div class="bs-info">
+                            <div class="rating-stars">★★★★★</div>
+                            <h3>Flat White Reserve</h3>
+                            <p class="bs-description">Double ristretto shot of our Single-Origin Colombian beans, topped with smooth, micro-foamed milk for a strong, velvety punch.</p>
+                            <div class="bs-price-row">
+                                <span class="bs-price">$5.50</span>
+                                <a href="#contact" class="btn btn-primary btn-sm">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why-us-section" id="why-us">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Our Distinctions</span>
+                    <h2 class="section-title">Why Coffee Lovers Choose Us</h2>
+                    <p class="section-desc">We pay meticulous attention to every single step of the coffee-making process to deliver an exceptional, premium experience.</p>
+                </div>
+
+                <div class="why-us-grid">
+                    <!-- Card 1 -->
+                    <div class="why-us-card">
+                        <div class="why-icon-box">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C68E5A" stroke-width="2">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.25z"/>
+                            </svg>
+                        </div>
+                        <h3>100% Organic Beans</h3>
+                        <p>We source only organic, premium grade, high-altitude Arabica coffee beans directly from fair-trade farms globally.</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="why-us-card">
+                        <div class="why-icon-box">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C68E5A" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3>Certified Master Baristas</h3>
+                        <p>Our skilled baristas are certified experts in milk foaming, roasting diagnostics, and delicate extraction techniques.</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="why-us-card">
+                        <div class="why-icon-box">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C68E5A" stroke-width="2">
+                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                            </svg>
+                        </div>
+                        <h3>Warm Cozy Vibe</h3>
+                        <p>Relax in an aesthetic sanctuary styled with soft lighting, premium timber seating, ambient jazz, and high-speed fiber internet.</p>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="why-us-card">
+                        <div class="why-icon-box">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C68E5A" stroke-width="2">
+                                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                        </div>
+                        <h3>Fresh Artisanal Roast</h3>
+                        <p>We small-batch roast our beans twice a week in-house, preserving delicate floral and chocolatey aromatic notes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Reviews Section -->
+        <section class="reviews-section" id="reviews">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Community Voices</span>
+                    <h2 class="section-title text-light">Loved by Coffee Enthusiasts</h2>
+                    <p class="section-desc text-light-muted">Read direct reviews from our lovely community about their premium experiences at Brew Haven.</p>
+                </div>
+
+                <!-- Review Slider Wrapper -->
+                <div class="reviews-slider-container">
+                    <div class="reviews-slider" id="reviews-slider">
+                        <!-- Review 1 -->
+                        <div class="review-card">
+                            <div class="review-quote-icon">“</div>
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">The salted caramel cold brew here is an absolute game changer! The cold foam is velvety, sweet, and matches the rich espresso notes perfectly. The interior design makes it the perfect place to write code or read a book. Highly recommend!</p>
+                            <div class="review-author">
+                                <div class="author-avatar" style="background-color: #6F4E37;">ES</div>
+                                <div class="author-info">
+                                    <h4 class="author-name">Emily S.</h4>
+                                    <span class="author-role">Software Developer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Review 2 -->
+                        <div class="review-card">
+                            <div class="review-quote-icon">“</div>
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">As a coffee snob, I can confidently say their pour-over is outstanding. They roast their own beans and the barista was incredibly knowledgeable about extraction temperatures. The flat white was smooth, sweet, and had beautiful micro-foam art.</p>
+                            <div class="review-author">
+                                <div class="author-avatar" style="background-color: #4E342E;">MJ</div>
+                                <div class="author-info">
+                                    <h4 class="author-name">Marcus J.</h4>
+                                    <span class="author-role">Certified Q-Grader</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Review 3 -->
+                        <div class="review-card">
+                            <div class="review-quote-icon">“</div>
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">Brew Haven has easily become my second home. The warm atmosphere, friendly staff, and the fragrance of freshly baked croissants make it the most inviting cafe in town. Do not leave without trying the almond croissant!</p>
+                            <div class="review-author">
+                                <div class="author-avatar" style="background-color: #C68E5A;">SL</div>
+                                <div class="author-info">
+                                    <h4 class="author-name">Sophia L.</h4>
+                                    <span class="author-role">Local Artist</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slider Controls -->
+                    <div class="slider-controls">
+                        <button class="slider-btn prev-btn" id="prev-review" aria-label="Previous Review">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="19" y1="12" x2="5" y2="12"></line>
+                                <polyline points="12 19 5 12 12 5"></polyline>
+                            </svg>
+                        </button>
+                        <div class="slider-dots" id="slider-dots">
+                            <span class="dot active" data-index="0"></span>
+                            <span class="dot" data-index="1"></span>
+                            <span class="dot" data-index="2"></span>
+                        </div>
+                        <button class="slider-btn next-btn" id="next-review" aria-label="Next Review">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Image Gallery Section -->
+        <section class="gallery-section" id="gallery">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Visual Tour</span>
+                    <h2 class="section-title">Capturing Brew Haven Moments</h2>
+                    <p class="section-desc">Step into our sanctuary. A collection of warm captures from our baristas brewing, fresh baking, and relaxing cafe spaces.</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="assets/hero_coffee.png" alt="Close-up latte art" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span>Artisanal Extraction</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/cafe_interior.png" alt="Cosy seating space" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span>Our Cozy Haven</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/pour_over.png" alt="Barista pouring a V60 pour over" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span>Pour-Over Craft</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/cafe_pastries.png" alt="Fresh croissants and pastries" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span>Fresh Daily Bakes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Opening Hours & Contact Section -->
+        <section class="contact-hours-section" id="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    
+                    <!-- Left: Hours & Location Details -->
+                    <div class="hours-card">
+                        <span class="card-subtitle">Plan Your Visit</span>
+                        <h2 class="card-title">Opening Hours</h2>
+                        
+                        <div class="hours-list">
+                            <div class="hours-row">
+                                <span class="day">Monday - Friday</span>
+                                <span class="time">07:00 AM - 08:00 PM</span>
+                            </div>
+                            <div class="hours-row">
+                                <span class="day">Saturday</span>
+                                <span class="time">08:00 AM - 09:00 PM</span>
+                            </div>
+                            <div class="hours-row">
+                                <span class="day">Sunday</span>
+                                <span class="time">08:00 AM - 06:00 PM</span>
+                            </div>
+                        </div>
+
+                        <div class="location-details">
+                            <h3>Find Us At</h3>
+                            <p class="address">128 Espresso Lane, Coffee District, Boston, MA 02111</p>
+                            <p class="phone"><strong>Phone:</strong> +1 (617) 555-0149</p>
+                            <p class="email"><strong>Email:</strong> hello@brewhavencafe.com</p>
+                        </div>
+
+                        <!-- Stylized Map Mockup -->
+                        <div class="map-mockup">
+                            <div class="map-pins">
+                                <div class="pin"></div>
+                                <div class="pulse"></div>
+                            </div>
+                            <div class="map-label">
+                                <strong>Brew Haven Café</strong>
+                                <p>128 Espresso Lane</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Premium Contact Form -->
+                    <div class="contact-card">
+                        <span class="card-subtitle">Connect With Us</span>
+                        <h2 class="card-title">Reserve a Table or Write to Us</h2>
+                        <p class="card-desc">Have a question, feedback, or want to host a private event? Send us a message and our hosts will get back to you shortly.</p>
+                        
+                        <form class="contact-form" id="contact-form" action="#" method="POST">
+                            <div class="form-row-2">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" name="email" required placeholder="john@example.com">
+                                </div>
+                            </div>
+                            <div class="form-row-2">
+                                <div class="form-group">
+                                    <label for="phone-input">Phone Number</label>
+                                    <input type="tel" id="phone-input" name="phone" placeholder="(123) 456-7890">
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Purpose</label>
+                                    <select id="subject" name="subject">
+                                        <option value="general">General Inquiry</option>
+                                        <option value="reservation">Table Reservation</option>
+                                        <option value="event">Private Event Booking</option>
+                                        <option value="feedback">Feedback / Suggestion</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Write your message details here..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block" id="form-submit">Send Message</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col brand-col">
+                <a href="#" class="logo footer-logo" aria-label="Brew Haven Cafe Home">
+                    <svg class="logo-icon" viewBox="0 0 100 100" width="40" height="40">
+                        <path d="M25,35 C25,25 75,25 75,35 C75,55 70,68 57,75 C45,80 35,78 25,68 Z" fill="none" stroke="#C68E5A" stroke-width="4"/>
+                        <path d="M74,38 C83,38 88,44 88,50 C88,56 82,61 73,61" fill="none" stroke="#C68E5A" stroke-width="4"/>
+                        <path d="M15,82 L85,82" fill="none" stroke="#6F4E37" stroke-width="5"/>
+                        <path d="M43,45 C38,48 38,55 43,60 C48,65 55,65 60,60 C65,55 65,48 60,45 Z" fill="#C68E5A"/>
+                    </svg>
+                    <div class="logo-text">
+                        <span class="logo-title">Brew Haven</span>
+                        <span class="logo-subtitle">C A F É</span>
+                    </div>
+                </a>
+                <p class="footer-desc">Crafting a sanctuary for specialty coffee lovers since 2014. Cultivating connection, warmth, and artistic extraction, cup by cup.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon-box" aria-label="Follow us on Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon-box" aria-label="Follow us on Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon-box" aria-label="Follow us on Twitter">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon-box" aria-label="Follow us on Pinterest">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M8 22a8.98 8.98 0 0 1-3-3l6-11A3.5 3.5 0 0 1 16.5 7a3.5 3.5 0 0 1 3.5 3.5c0 3.31-2.69 6-6 6a3.5 3.5 0 0 1-3.5-3.5"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">Our Story</a></li>
+                    <li><a href="#menu">Our Menu</a></li>
+                    <li><a href="#best-sellers">Bestsellers</a></li>
+                    <li><a href="#why-us">Why Choose Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Support & Contact</h3>
+                <ul class="footer-links">
+                    <li><a href="#contact">Reservations</a></li>
+                    <li><a href="#contact">Contact Host</a></li>
+                    <li><a href="#about">Ethical Beans</a></li>
+                    <li><a href="#contact">Private Events</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col newsletter-col">
+                <h3>Newsletter</h3>
+                <p>Subscribe to receive news about coffee tasting events, single-origin drops, and seasonal pastries.</p>
+                <form class="newsletter-form" id="newsletter-form" action="#" method="POST">
+                    <input type="email" placeholder="Your email address" required aria-label="Newsletter email">
+                    <button type="submit" class="btn btn-primary" aria-label="Subscribe">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p>&copy; 2026 Brew Haven Café. All rights reserved.</p>
+                <div class="footer-policy-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Lightbox Modal for Gallery -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-hidden="true">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Close Lightbox">&times;</button>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Enlarged gallery image">
+    </div>
+
+    <!-- JS Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
